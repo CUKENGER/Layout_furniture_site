@@ -1,0 +1,82 @@
+@import '../_variables';
+
+
+.footer__logo_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 40px;
+}
+
+.footer__bottom_logo{
+    font-family: 'Inter-Regular';
+    color: $dark_gray;
+    padding: 0 18px;
+}
+
+.footer_links_container{
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.footer__links{
+    width: 40%;
+}
+
+
+.links {
+    display: flex;
+    padding: 15px;
+}
+
+.footer__link_title {
+    font-family: 'Roboto-Bold';
+    padding: 0 60px;
+}
+
+
+.footer__link_description {
+    margin-left: auto;
+    font-family: 'Roboto-Regular';
+}
+
+.footer_info_container{
+    padding: 0 70px;
+}
+
+
+.footer__info {
+    display: flex;
+    column-gap: 15px;
+}
+
+
+.footer__logo{
+    display: flex;
+    justify-content: left;
+}
+
+
+.footer__info_title{
+    font-family: 'Roboto-Regular';
+    padding: 15px;
+}
+
+
+.footer__line_container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__line {
+    padding: 20px 15px;
+}
+
+.footer__rights {
+    column-gap: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+}

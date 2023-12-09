@@ -1,0 +1,59 @@
+@import '../_variables';
+@font-face {
+    font-family: "Roboto-Black Roboto-Bold Roboto-Regular Inter-Regular Inter-Bold";
+    src: url('../global/_fonts.scss');
+}
+
+.header_wrapper {
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__logo {
+    font-family: 'Inter Bold';
+    color: $base;
+}
+
+.header__link_logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header__bottom_logo {
+    font-family: 'Inter-Regular';
+    display: flex;
+    color: $dark_gray;
+    justify-content: center;
+}
+
+.header__icons,
+.header__links,
+.header__lang {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    font-family: 'Roboto-Bold';
+}
+
+.header__button {
+    background-color: $base;
+    width: 380px;
+    height: 122px;
+    color: white;
+    font-family: 'Roboto-Bold';
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+

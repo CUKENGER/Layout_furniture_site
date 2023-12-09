@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"LoremIpsum",
+"description":"Gulp pack for easy html/php markup development",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+	<div class="header_menu">
+		@@include('components/page-blocks/_header.html')
+	</div>
+	<main class="main">
+		<section class="product_slider">
+			<div class="container">
+				<div class="wrapper">
+					<div class="product_slider__photos">
+	
+						<div class="product_slider__photo-1">
+							<img src="./img/bedroom_2.jpg" alt="...">
+						</div>
+						<div class="product_slider__photo_text">
+							<p class="product_slider__title">Name Product</p>
+							<p class="product_slider__text">Product's price or product's description</p>
+						</div>
+						<span class="product_slider__arrow-1">@@include('./svg/include/arrow_1.svg')</span>
+						<span class="product_slider__arrow-2">@@include('./svg/include/arrow_left.svg')</span>
+						<span class="product_slider__ellipse_1">@@include('./svg/include/Ellipse_1.svg')</span>
+						<span class="product_slider__ellipse_2">@@include('./svg/include/Ellipse_1.svg')</span>
+						<span class="product_slider__ellipse_3">@@include('./svg/include/Ellipse_1.svg')</span>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<section class="about">
+		<div class="container">
+			<div class="wrapper">
+				<div class="about_container">
+					<div class="about_text_container">
+						<h1>About</h1>
+						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quos ipsam magnam saepe voluptas, vitae autem incidunt exercitationem eaque animi consectetur, optio vero fuga voluptatibus non nihil natus. Architecto adipisci voluptate tempora officiis quae! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at sagittis metus, sed interdum dolor. Donec vel felis sit amet libero maximus porttitor vitae a velit. Vestibulum scelerisque eros vitae sem ultrices, eget pretium nibh rhoncus. Cras gravida eleifend neque, nec volutpat tellus malesuada quis. Aliquam a finibus arcu. Quisque.</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	@@include('components/page-blocks/_footer.html')
+	@@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

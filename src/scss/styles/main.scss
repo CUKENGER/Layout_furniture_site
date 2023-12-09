@@ -1,0 +1,71 @@
+@import '../_variables';
+@font-face {
+    font-family: "Roboto-Black Roboto-Bold Roboto-Regular Inter-Regular Inter-Bold";
+    src: url('../global/_fonts.scss');
+}
+
+.product_slider__photos {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    text-align: start;
+    color: $white;
+}
+
+
+.product_slider__photo_text {
+    position: absolute;
+    bottom: 150px;
+    left: 130px;
+}
+
+.product_slider__title {
+    font-family: 'Inter-Bold';
+    font-size: 50px;
+    color: $white;
+}
+
+.product_slider__text {
+    max-width: 400px;
+    font-family: 'Inter-Regular';
+    font-size: 35px;
+    color: $white;
+}
+
+.product_slider__arrow-1{
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translate(0, -50%);
+}
+
+.product_slider__arrow-2{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translate(0, -50%);
+}
+
+.product_slider__ellipse_1,
+.product_slider__ellipse_2,
+.product_slider__ellipse_3 {
+    bottom: 2%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.product_slider__ellipse_1{
+    left: 45%;
+}
+
+.product_slider__ellipse_2{
+    left: 50%;
+}
+
+.product_slider__ellipse_3{
+    left: 55%;
+}
+
+
+
