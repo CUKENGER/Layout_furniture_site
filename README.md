@@ -1,4 +1,5 @@
 # Верстка страницы по собственному макету
 ## Описание
 Проект делался с использованием Gulp, SCSS. Все изображения и файлы минифицированы. В статическом состоянии работают скрипты.
-(https://github.com/CUKENGER/LayoutsGulp/blob/main/project_logo.PNG)
+
+![Вид проекта](https://github.com/CUKENGER/LayoutsGulp/blob/main/project_logo.PNG)
