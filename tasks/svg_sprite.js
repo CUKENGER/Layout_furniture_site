@@ -21,6 +21,9 @@ module.exports = function svg_sprite() {
 				stack: {
 					sprite: '../sprite.svg'
 				}
+			},
+			shape: {
+				transform: [],
 			}
 		}))
 		.pipe(dest('src/img'))

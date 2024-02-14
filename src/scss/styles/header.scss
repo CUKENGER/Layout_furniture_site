@@ -4,42 +4,40 @@
     src: url('../global/_fonts.scss');
 }
 
-.header_wrapper {
+.header__wrapper {
+    width: calc(100% - 50px);
     justify-content: space-between;
-    position: relative;
+    column-gap: 4rem;
 }
 
-.header__logo {
+.header__logo-title {
     font-family: 'Inter Bold';
     color: $base;
 }
 
-.header__link_logo {
+.header__logo-link {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
-.header__bottom_logo {
+.header__logo-subtitle {
     font-family: 'Inter-Regular';
-    display: flex;
     color: $dark_gray;
-    justify-content: center;
 }
 
 .header__icons,
-.header__links,
+.header__nav,
 .header__lang {
     display: flex;
-    flex-direction: row;
-    column-gap: 25px;
+    column-gap: 2.5rem;
     font-family: 'Roboto-Bold';
 }
 
 .header__button {
     background-color: $base;
-    width: 380px;
-    height: 122px;
+    width: 130rem;
+    height: 12.2rem;
     color: white;
     font-family: 'Roboto-Bold';
     border: 0;
@@ -47,6 +45,7 @@
 
 ul {
     list-style-type: none;
+    column-count: 3;
 }
 
 p {
@@ -54,6 +53,19 @@ p {
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
+
+.header__burger{
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .header__icons{
+        width: 10rem;
+        height: auto;
+    }
+}
+
 
