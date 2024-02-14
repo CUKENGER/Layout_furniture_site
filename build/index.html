@@ -27,75 +27,112 @@
 
 
 <body>
-	<div class="header_menu">
+	<div class="header">
 		<header class="header">
-    <div class="container">
-        <div class="header_wrapper wrapper">
-            <div class="header__link_logo">
-    
-                <h3 class="header__logo">LOREMIPSUM</h3>
-                <p class="header__bottom__logo">lorem ipsum</p>
+        <div class="header__wrapper wrapper">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">
+                    <h3 class="header__logo-title">LOREMIPSUM</h3>
+                    <p class="header__logo-subtitle">lorem ipsum</p>
+                </a>
             </div>
             <div class="header__icons">
-                <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M37.5833 3.41666L18.7916 22.2083" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M37.5833 3.41666L25.625 37.5833L18.7916 22.2083L3.41663 15.375L37.5833 3.41666Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M27.5 2.5L13.75 16.25" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27.5 2.5L18.75 27.5L13.75 16.25L2.5 11.25L27.5 2.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-                <svg width="41" height="42" viewBox="0 0 41 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M39.1666 30.43V36.18C39.1688 36.7138 39.0594 37.2422 38.8456 37.7313C38.6317 38.2204 38.3181 38.6594 37.9248 39.0203C37.5314 39.3811 37.0671 39.6559 36.5614 39.8269C36.0557 39.9979 35.5199 40.0614 34.9883 40.0133C29.0904 39.3725 23.425 37.3571 18.4475 34.1292C13.8165 31.1865 9.89018 27.2602 6.94745 22.6292C3.70824 17.629 1.69242 11.9361 1.06329 6.01168C1.01539 5.48166 1.07838 4.94747 1.24825 4.44313C1.41811 3.93878 1.69113 3.47533 2.04992 3.08229C2.40871 2.68924 2.84541 2.37521 3.33222 2.16018C3.81903 1.94515 4.34527 1.83385 4.87745 1.83335H10.6275C11.5576 1.82419 12.4594 2.15358 13.1647 2.76012C13.8699 3.36665 14.3306 4.20895 14.4608 5.13001C14.7035 6.97014 15.1536 8.77691 15.8025 10.5158C16.0603 11.2019 16.1161 11.9474 15.9633 12.6642C15.8104 13.381 15.4553 14.0389 14.94 14.56L12.5058 16.9942C15.2343 21.7926 19.2073 25.7657 24.0058 28.4942L26.44 26.06C26.9611 25.5447 27.619 25.1896 28.3358 25.0367C29.0525 24.8838 29.7981 24.9396 30.4841 25.1975C32.2231 25.8464 34.0298 26.2965 35.87 26.5392C36.801 26.6705 37.6513 27.1395 38.2591 27.8569C38.867 28.5743 39.1899 29.49 39.1666 30.43Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M27.5 21.15V24.9C27.5015 25.2481 27.4301 25.5927 27.2907 25.9117C27.1512 26.2307 26.9467 26.517 26.6901 26.7523C26.4336 26.9877 26.1308 27.1669 25.801 27.2784C25.4712 27.3899 25.1218 27.4313 24.775 27.4C20.9286 26.9821 17.2338 25.6677 13.9875 23.5625C10.9673 21.6433 8.40671 19.0827 6.48754 16.0625C4.37501 12.8015 3.06034 9.08874 2.65004 5.225C2.6188 4.87933 2.65988 4.53095 2.77066 4.20203C2.88145 3.87311 3.0595 3.57086 3.2935 3.31453C3.52749 3.05819 3.81229 2.85339 4.12978 2.71315C4.44726 2.57292 4.79046 2.50033 5.13754 2.5H8.88754C9.49417 2.49403 10.0823 2.70885 10.5422 3.10442C11.0022 3.49998 11.3026 4.04931 11.3875 4.65C11.5458 5.85008 11.8394 7.02841 12.2625 8.1625C12.4307 8.6099 12.4671 9.09614 12.3674 9.5636C12.2677 10.0311 12.0361 10.4601 11.7 10.8L10.1125 12.3875C11.892 15.5169 14.4831 18.1081 17.6125 19.8875L19.2 18.3C19.5399 17.9639 19.969 17.7323 20.4364 17.6326C20.9039 17.5329 21.3901 17.5693 21.8375 17.7375C22.9716 18.1607 24.15 18.4542 25.35 18.6125C25.9572 18.6982 26.5118 19.004 26.9082 19.4719C27.3046 19.9397 27.5152 20.537 27.5 21.15Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
             </div>
-            <div class="header__links">
-                <p>Store</p>
-                <p>Blog</p>
-                <p>Contact</p>
-            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="" class="header__nav-link">Store</a></li>
+                    <li><a href="" class="header__nav-link">Blog</a></li>
+                    <li><a href="" class="header__nav-link">Contact</a></li>
+                </ul>
+            </nav>
             <div class="header__lang">
-                <p>RU</p>    
-                <p>ENG</p>
+                <p class="header__lang-item">RU</p>
+                <p class="header__lang-item">ENG</p>
             </div>
+            <a href="#" class="header__burger">
+                <span>
+                    <svg width="32" height="17" viewBox="0 0 32 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="15.5" x2="32" y2="15.5" stroke="#B6521A" stroke-width="3"/>
+<line y1="8.5" x2="32" y2="8.5" stroke="#B6521A" stroke-width="3"/>
+<line y1="1.5" x2="32" y2="1.5" stroke="#B6521A" stroke-width="3"/>
+</svg>
+
+                </span>
+            </a>
             <button class="header__button">Place Order</button>
         </div>
-        <div class="line"></div>
-    </div>
-    
+        <hr class="line">
 </header>
 
 
 	</div>
+
 	<main class="main">
-		<section class="product_slider">
-			<div class="container">
-				<div class="wrapper">
-					<div class="product_slider__photos">
+		<section class="slider">
+			<div class="slider_container container">
+				<div class="slider_wrapper wrapper">
+					<div class="slider_photos">
 	
-						<div class="product_slider__photo-1">
-							<img src="./img/bedroom_2.jpg" alt="...">
+						<div class="slider_main">
+							<img 
+							type="image/webp"
+							class="slider_main__photo" 
+							src="./img/bedroom_fig_1.jpg"
+							alt="...">
+							<img 
+							type="image/webp"
+							class="slider_main__photo" 
+							src="./img/bedroom_fig_2.jpg"
+							alt="...">
+							<img 
+							type="image/webp"
+							class="slider_main__photo" 
+							src="./img/bedroom_fig_3.jpg"
+							alt="...">
+							
 						</div>
-						<div class="product_slider__photo_text">
-							<p class="product_slider__title">Name Product</p>
-							<p class="product_slider__text">Product's price or</p>
-							<p class="product_slider__text"> product's description</p>
+						<div class="slider_photos_text">
+							<div class="slider_photos_text_container">
+								<p class="slider_photos_text__title">Name Product</p>
+								<div class="slider_photos_text_title_container">
+									<p class="slider_photos_text__upper">Product's price or</p>
+									<p class="slider_photos_text__lower"> product's description</p>
+								</div>
+							</div>
+							<div class="slider_photos_text__button">
+								<a href=""><span class="slider__button slider__button--mobile"><svg width="80" height="37" viewBox="0 0 80 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="80" height="30" rx="15" fill="#B6521A"/>
+<path d="M27.2482 19V10.2727H30.1971C30.8817 10.2727 31.4414 10.3963 31.8761 10.6435C32.3136 10.8878 32.6374 11.2188 32.8477 11.6364C33.0579 12.054 33.163 12.5199 33.163 13.0341C33.163 13.5483 33.0579 14.0156 32.8477 14.4361C32.6403 14.8565 32.3192 15.1918 31.8846 15.4418C31.4499 15.6889 30.8931 15.8125 30.2141 15.8125H28.1005V14.875H30.18C30.6488 14.875 31.0252 14.794 31.3093 14.6321C31.5934 14.4702 31.7994 14.2514 31.9272 13.9759C32.0579 13.6974 32.1232 13.3835 32.1232 13.0341C32.1232 12.6847 32.0579 12.3722 31.9272 12.0966C31.7994 11.821 31.592 11.6051 31.305 11.4489C31.0181 11.2898 30.6374 11.2102 30.163 11.2102H28.305V19H27.2482ZM34.729 19V12.4545H35.7006V13.4432H35.7688C35.8881 13.1193 36.104 12.8565 36.4165 12.6548C36.729 12.4531 37.0813 12.3523 37.4734 12.3523C37.5472 12.3523 37.6396 12.3537 37.7504 12.3565C37.8612 12.3594 37.945 12.3636 38.0018 12.3693V13.392C37.9677 13.3835 37.8896 13.3707 37.7674 13.3537C37.6481 13.3338 37.5217 13.3239 37.3881 13.3239C37.07 13.3239 36.7859 13.3906 36.5359 13.5241C36.2887 13.6548 36.0927 13.8366 35.9478 14.0696C35.8058 14.2997 35.7347 14.5625 35.7347 14.858V19H34.729ZM39.1939 19V12.4545H40.1996V19H39.1939ZM39.7053 11.3636C39.5092 11.3636 39.3402 11.2969 39.1982 11.1634C39.0589 11.0298 38.9893 10.8693 38.9893 10.6818C38.9893 10.4943 39.0589 10.3338 39.1982 10.2003C39.3402 10.0668 39.5092 10 39.7053 10C39.9013 10 40.0689 10.0668 40.2081 10.2003C40.3501 10.3338 40.4212 10.4943 40.4212 10.6818C40.4212 10.8693 40.3501 11.0298 40.2081 11.1634C40.0689 11.2969 39.9013 11.3636 39.7053 11.3636ZM44.7006 19.1364C44.087 19.1364 43.5586 18.9915 43.1154 18.7017C42.6722 18.4119 42.3313 18.0128 42.0927 17.5043C41.854 16.9957 41.7347 16.4148 41.7347 15.7614C41.7347 15.0966 41.8569 14.5099 42.1012 14.0014C42.3484 13.4901 42.6921 13.0909 43.1325 12.804C43.5756 12.5142 44.0927 12.3693 44.6836 12.3693C45.1438 12.3693 45.5586 12.4545 45.9279 12.625C46.2972 12.7955 46.5998 13.0341 46.8356 13.3409C47.0714 13.6477 47.2177 14.0057 47.2745 14.4148H46.2688C46.1921 14.1165 46.0217 13.8523 45.7575 13.6222C45.4961 13.3892 45.1438 13.2727 44.7006 13.2727C44.3086 13.2727 43.9648 13.375 43.6694 13.5795C43.3768 13.7812 43.1481 14.0668 42.9833 14.4361C42.8214 14.8026 42.7404 15.233 42.7404 15.7273C42.7404 16.233 42.82 16.6733 42.979 17.0483C43.141 17.4233 43.3683 17.7145 43.6609 17.9219C43.9563 18.1293 44.3029 18.233 44.7006 18.233C44.962 18.233 45.1992 18.1875 45.4123 18.0966C45.6254 18.0057 45.8058 17.875 45.9535 17.7045C46.1012 17.5341 46.2063 17.3295 46.2688 17.0909H47.2745C47.2177 17.4773 47.0771 17.8253 46.8526 18.1349C46.631 18.4418 46.337 18.6861 45.9705 18.8679C45.6069 19.0469 45.1836 19.1364 44.7006 19.1364ZM51.489 19.1364C50.8583 19.1364 50.3143 18.9972 49.8569 18.7188C49.4023 18.4375 49.0515 18.0455 48.8043 17.5426C48.56 17.0369 48.4379 16.4489 48.4379 15.7784C48.4379 15.108 48.56 14.517 48.8043 14.0057C49.0515 13.4915 49.3952 13.0909 49.8356 12.804C50.2788 12.5142 50.7958 12.3693 51.3867 12.3693C51.7276 12.3693 52.0643 12.4261 52.3967 12.5398C52.729 12.6534 53.0316 12.8381 53.3043 13.0938C53.5771 13.3466 53.7944 13.6818 53.9563 14.0994C54.1183 14.517 54.1992 15.0312 54.1992 15.642V16.0682H49.1538V15.1989H53.1765C53.1765 14.8295 53.1026 14.5 52.9549 14.2102C52.81 13.9205 52.6026 13.6918 52.3327 13.5241C52.0657 13.3565 51.7504 13.2727 51.3867 13.2727C50.9862 13.2727 50.6396 13.3722 50.3469 13.571C50.0572 13.767 49.8342 14.0227 49.6779 14.3381C49.5217 14.6534 49.4435 14.9915 49.4435 15.3523V15.9318C49.4435 16.4261 49.5288 16.8452 49.6992 17.1889C49.8725 17.5298 50.1126 17.7898 50.4194 17.9688C50.7262 18.1449 51.0827 18.233 51.489 18.233C51.7532 18.233 51.9918 18.196 52.2049 18.1222C52.4208 18.0455 52.6069 17.9318 52.7631 17.7812C52.9194 17.6278 53.0401 17.4375 53.1254 17.2102L54.0969 17.483C53.9947 17.8125 53.8228 18.1023 53.5813 18.3523C53.3398 18.5994 53.0415 18.7926 52.6864 18.9318C52.3313 19.0682 51.9322 19.1364 51.489 19.1364Z" fill="white"/>
+</svg>
+</span></a>
+							</div>
 						</div>
-						<span class="product_slider__arrow-1"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<span class="slider__arrow-1" id="nextBtn"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M37.5 75L62.5 50L37.5 25" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </span>
-						<span class="product_slider__arrow-2"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<span class="slider__arrow-2" id="prevBtn"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M62.5 25L37.5 50L62.5 75" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </span>
-						<span class="product_slider__ellipse_1"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<span class="slider__ellipse slider__ellipse_1 slider__ellipse--active" id="ellipse1"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="20" cy="20" r="20" fill="#D9D9D9"/>
 </svg>
 </span>
-						<span class="product_slider__ellipse_2"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<span class="slider__ellipse slider__ellipse_2 slider__ellipse--inactive" id="ellipse2"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="20" cy="20" r="20" fill="#D9D9D9"/>
 </svg>
 </span>
-						<span class="product_slider__ellipse_3"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<span class="slider__ellipse slider__ellipse_3 slider__ellipse--inactive" id="ellipse3"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="20" cy="20" r="20" fill="#D9D9D9"/>
 </svg>
 </span>
@@ -103,21 +140,28 @@
 				</div>
 			</div>
 		</section>
-	</main>
 
-	<section class="about">
-		<div class="container">
-			<div class="wrapper">
-				<div class="about_container">
-					<div class="about_text_container">
-						<h2>About</h2>
-						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quos ipsam magnam saepe voluptas, vitae autem incidunt exercitationem eaque animi consectetur, optio vero fuga voluptatibus non nihil natus. Architecto adipisci voluptate tempora officiis quae! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at sagittis metus, sed interdum dolor. Donec vel felis sit amet libero maximus porttitor vitae a velit. Vestibulum scelerisque eros vitae sem ultrices, eget pretium nibh rhoncus. Cras gravida eleifend neque, nec volutpat tellus malesuada quis. Aliquam a finibus arcu. Quisque.</p>
+		
+		<section class="about">
+			<div class="container">
+				<div class="wrapper">
+					<div class="about_container">
+						<div class="about_container__text">
+							<h2 class="title">About</h2>
+							<p class="content">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quos ipsam magnam saepe voluptas, vitae autem incidunt exercitationem eaque animi consectetur, optio vero fuga voluptatibus non nihil natus. Architecto adipisci voluptate tempora officiis quae! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at sagittis metus, sed interdum dolor. Donec vel felis sit amet libero maximus porttitor vitae a velit. Vestibulum scelerisque eros vitae sem ultrices, eget pretium nibh rhoncus. Cras gravida eleifend neque, nec volutpat tellus malesuada quis. Aliquam a finibus arcu. Quisque.
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos alias est dolore quae commodi? Vero pariatur eum unde explicabo repellendus distinctio deleniti quos incidunt corporis.
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus atque placeat esse mollitia, maiores saepe libero velit laboriosam, totam laborum alias, adipisci illo quos consequuntur.\
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugiat repellendus, veniam doloribus fugit placeat labore, nam quisquam rem optio architecto neque? Eveniet, illo. Quod, neque.
+							</p>
+						</div>
+	
 					</div>
-
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</main>
+
 
 
 	<section class="ourproducts">
@@ -125,20 +169,31 @@
 			<div class="wrapper">
 				<div class="ourproducts_container">
 					
-					<h2>Our Products</h2>
+					<h2 class="ourproducts__title">Our Products</h2>
 					
-					<div class="products_photos">
-						<div class="products">
-							<p class="product-name --active">Kitchens</p>
-							<img src="./img/kitchens.jpg" alt="">
+					<div class="ourproducts-photos">
+						<div class="ourproducts-photos__item" onclick="changeSlide(0)">
+							<p class="ourproduct-name --active">Kitchens</p>
+							<img class="ourproduct-icon" src=".//img/kitchen_1.webp"/>
 						</div>
-						<div class="products">
-							<p class="product-name">Bedrooms</p>
-							<img src="./img/bedrooms.jpg" alt="">
+						<div class="ourproducts-photos__item" onclick="changeSlide(1)">
+							<p class="ourproduct-name">Bedrooms</p>
+							<img 
+							class="ourproduct-photos__photo"
+							type="image/webp"
+							src="./img/bedroom_2.webp" 
+							srcset="./img/closets.webp 320w,
+							./img/bedroom_2.webp 480w,
+							./img/bedroom_400x768px.webp 768w" 
+							sizes="(max-width: 320px) 280px, 
+									(max-width: 480px) 440px, 
+									768px"
+							alt="">
 						</div>
-						<div class="products">
-							<p class="product-name">Closets</p>
-							<img src="./img/closets.jpg" alt="">
+						<div class="ourproducts-photos__item" onclick="changeSlide(2)">
+							<p class="ourproduct-name">Closets</p>
+							<img class="ourproduct-photos__photo"
+							src="./img/closets.jpg" alt="">
 						</div>
 						
 					</div>
@@ -149,71 +204,131 @@
 
 	</section>
 
+	<section class="form">
+		<div class="container">
+			<div class="wrapper">
+				<div class="form_container">
+					<div class="form__title">
+						<p class="form__title-text">Want to customize your personal space?</p>
+						<div class="form__line"></div>
+						<p class="form__title-text">Leave request</p>
+					</div>
+
+					<form class="form__form" action="">
+						<div class="form__box">
+							<input type="text" placeholder="Your name">
+							<span class="form__star">*</span>
+						</div>
+						<div class="form__box">
+							<input type="text" placeholder="Phone number">
+							<span class="form__star">*</span>
+						</div>
+						<div class="form__box">
+							<input type="text" placeholder="More info">
+						</div>
+						<div class="form__box">
+							<input type="text" placeholder="More info">	
+							<span class="form__star">*</span>
+						</div>
+						<button class="form__button">Add Photo</button>
+						<div class="form__subbutton">
+							<button class="form__subbutton-button" type="submit">Send</button>
+							<p class="form__text-required">*required</p>
+						</div>					
+
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
 	
 
 	<footer class="footer">
     <div class="container">
-        <div class="footer__logo_text">
-            <h3 class="header__logo">LOREMIPSUM</h3>
-            <p class="footer__bottom_logo">lorem ipsum</p>
-        </div>
-            
-        <div class="footer_links_container">
-            <div class="footer__links">
-                <div class="links">
-                    <p class="footer__link_title">Main</p>
-                    <p class="footer__link_description">Question-answer</p>
-                </div>
-                <div class="links">
-                    <p class="footer__link_title">Store</p>
-                    <p class="footer__link_description">Regulatory Documents</p>
-                </div>
-                <div class="links">
-                    <p class="footer__link_title">Blog</p>
-                    <p class="footer__link_description">General Information</p>
-                </div>
-                <div class="links">
-                    <p class="footer__link_title">Contact</p>
-                    <p class="footer__link_description">English</p>
-                </div>
+        <div id="footer" class="footer_wrapper wrapper">
+
+            <div class="header__logo footer__logo">
+                <a href="#" class="header__logo-link">
+    
+                    <h3 class="header__logo-title">LOREMIPSUM</h3>
+                    <p class="header__logo-subtitle">lorem ipsum</p>
+                </a>
             </div>
-            <div class="footer_info_container">
-                <div class="footer__info">
-                    <span class="footer__icon"><svg width="41" height="42" viewBox="0 0 41 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                
+            <div class="footer_links_container">
+                <div class="footer__links">
+                    <div class="links">
+                        <p class="footer__link_title">Main</p>
+                        <p class="footer__link_description">Question-answer</p>
+                    </div>
+                    <div class="links">
+                        <p class="footer__link_title">Store</p>
+                        <p class="footer__link_description">Regulatory Documents</p>
+                    </div>
+                    <div class="links">
+                        <p class="footer__link_title">Blog</p>
+                        <p class="footer__link_description">General Information</p>
+                    </div>
+                    <div class="links">
+                        <p class="footer__link_title">Contact</p>
+                        <p class="footer__link_description">English</p>
+                    </div>
+                </div>
+                <div class="footer_info_container footer_links_container">
+                    <div class="footer__info footer__links">
+                        <div class="links support">
+                            <span class="footer__icon footer__link_description"><svg width="20" height="20" viewBox="0 0 41 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M39.1666 30.43V36.18C39.1688 36.7138 39.0594 37.2422 38.8456 37.7313C38.6317 38.2204 38.3181 38.6594 37.9248 39.0203C37.5314 39.3811 37.0671 39.6559 36.5614 39.8269C36.0557 39.9979 35.5199 40.0614 34.9883 40.0133C29.0904 39.3725 23.425 37.3571 18.4475 34.1292C13.8165 31.1865 9.89018 27.2602 6.94745 22.6292C3.70824 17.629 1.69242 11.9361 1.06329 6.01168C1.01539 5.48166 1.07838 4.94747 1.24825 4.44313C1.41811 3.93878 1.69113 3.47533 2.04992 3.08229C2.40871 2.68924 2.84541 2.37521 3.33222 2.16018C3.81903 1.94515 4.34527 1.83385 4.87745 1.83335H10.6275C11.5576 1.82419 12.4594 2.15358 13.1647 2.76012C13.8699 3.36665 14.3306 4.20895 14.4608 5.13001C14.7035 6.97014 15.1536 8.77691 15.8025 10.5158C16.0603 11.2019 16.1161 11.9474 15.9633 12.6642C15.8104 13.381 15.4553 14.0389 14.94 14.56L12.5058 16.9942C15.2343 21.7926 19.2073 25.7657 24.0058 28.4942L26.44 26.06C26.9611 25.5447 27.619 25.1896 28.3358 25.0367C29.0525 24.8838 29.7981 24.9396 30.4841 25.1975C32.2231 25.8464 34.0298 26.2965 35.87 26.5392C36.801 26.6705 37.6513 27.1395 38.2591 27.8569C38.867 28.5743 39.1899 29.49 39.1666 30.43Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </span>
-                    <p class="footer__link_title footer__info_title">+7 000 000 00 00</p>
-                </div>
-                <div class="footer__info">
-                    <span class="footer__icon"><svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <p class="footer__link_title footer__info_title">+7 000 000 00 00</p>
+                        </div>
+                    </div>
+                    <div class="footer__info footer__links">
+                        <div class="links support">
+                            <span class="footer__icon footer__link_description"><svg width="20" height="20" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M20.9768 40.9999C31.4573 40.9999 39.9535 32.2695 39.9535 21.4999C39.9535 10.7304 31.4573 2 20.9768 2C10.4962 2 2 10.7304 2 21.4999C2 32.2695 10.4962 40.9999 20.9768 40.9999Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M20.9768 2.06738L21.1013 21.731L31.214 28.2183" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </span>
-                    <p class="footer__link_title footer__info_title">Opening hours</p>
-                </div>
-                <div class="footer__info">
-                    <span class="footer__icon"><svg width="41" height="43" viewBox="0 0 41 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <p class="footer__link_title footer__info_title">Opening hours</p>
+                        </div>
+                    </div>
+                    <div class="footer__info footer__links">
+                        <div class="links support">
+                            <span class="footer__icon footer__link_description"><svg width="20" height="20" viewBox="0 0 41 43" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M39.0001 41.0002V26.0163C39.0001 23.7455 38.0661 21.5676 36.4037 19.9619C34.7413 18.3562 32.4865 17.4541 30.1355 17.4541H3.54175" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.4444 33.2123L2 17.6061L18.4444 2" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </span>
-                    <p class="footer__link_title footer__info_title">Callback</p>
+                            <p class="footer__link_title footer__info_title">Callback</p>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
-            
-        </div>
-        <div class="footer_line_container">
-            <span class="footer__line"><svg width="1344" height="3" viewBox="0 0 1344 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line y1="1.5" x2="1344" y2="1.5" stroke="black" stroke-width="3"/>
+            <div class="footer_line_container">
+                
+                <hr class="footer__line">
+            </div>
+            <div class="footer__rights">
+                <span><svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_9_106)">
+<rect width="9" height="9" fill="white"/>
+<path d="M4.5 0C2.01863 0 0 2.01863 0 4.5C0 6.98138 2.01863 9 4.5 9C6.98138 9 9 6.98138 9 4.5C9 2.01863 6.98138 0 4.5 0ZM4.5 7.875C2.63888 7.875 1.125 6.36075 1.125 4.5C1.125 2.63925 2.63888 1.125 4.5 1.125C6.36112 1.125 7.875 2.63925 7.875 4.5C7.875 6.36075 6.36112 7.875 4.5 7.875ZM3.65625 4.0995V4.90088C3.65625 5.3595 4.00913 5.71913 4.46025 5.71913H4.61363C4.81425 5.71913 5.00775 5.64563 5.15738 5.5125C5.38912 5.30512 5.745 5.3265 5.95125 5.55863C6.15788 5.79075 6.13725 6.14625 5.90512 6.35287C5.54925 6.67013 5.09063 6.8445 4.61363 6.8445H4.46025C3.39675 6.8445 2.53125 5.97262 2.53125 4.90125V4.09987C2.53125 3.0285 3.39675 2.15663 4.46025 2.15663H4.61363C5.11013 2.15663 5.583 2.34413 5.94487 2.68425C6.17137 2.89687 6.18225 3.25312 5.96925 3.47925C5.75663 3.70575 5.40037 3.71625 5.17425 3.50363C5.022 3.36038 4.8225 3.28163 4.61363 3.28163H4.46025C4.0095 3.28163 3.65625 3.6405 3.65625 4.0995Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_9_106">
+<rect width="9" height="9" fill="white"/>
+</clipPath>
+</defs>
 </svg>
 </span>
-        </div>
-        <div class="footer__rights">
-            
-            <p>Lorem ipsum    |    All rights reserved</p>
-        </div>
+                <p>Lorem ipsum       |       All rights reserved</p>
+            </div>
+            </div>
         </div>
     </div>
 </footer>

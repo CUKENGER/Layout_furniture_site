@@ -1,22 +1,183 @@
+@import '../../variables';
+
 .ourproducts_container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 1450px;
-    padding: 40px;
 }
 
-.products_photos {
-    // margin-left: 70px;
-    column-gap: 60px;
-    display: flex;
-    justify-content: center;
+.ourproducts-photos{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    transition: grid-template-rows 0.3s ease-in-out;
 }
 
-.products {
+.ourproducts-photos__item {
     text-align: center;
+    width: calc(100% - 10px);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        grid-row: span 2;
+    }
+
+    img {
+        transition: transform 0.3s ease-in-out;
+    }
 }
 
-.product-name {
-    padding: 20px;
+.ourproducts-photos__item.active img {
+    transform: scale(1.05);
 }
+
+.ourproduct-name {
+    padding: 2rem;
+}
+
+.ourproduct-photos__photo{
+    height: 25rem;
+}
+
+.ourproducts__title{
+    text-align: start;
+    font-family: 'Roboto-Regular';
+    padding: 1.5rem 0;
+    margin-left: 5rem;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #B6521A;
+    row-gap: 2rem;
+    padding-top: 1.5rem;
+}
+
+.form__title {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    row-gap: 2rem;
+}
+
+.form__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.form__box> input {
+    width: 100%;
+    border: none;
+    color: #fff;
+    background-color: #B6521A;
+}
+
+.form__title-text{
+    color: #fff;
+}
+
+.form__box{
+    display: flex;
+    flex-direction: row;
+    background-color: #B6521A;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 190%;
+}
+
+.form__star {
+    color: #fff;
+}
+
+.form__button {
+    width: 190%;
+    background-color: #B6521A;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.form__subbutton{
+    display: flex;
+    flex-direction: row;
+    width: 190%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form__subbutton-button{
+    width: 80%;
+}
+
+.form__text-required{
+    color: #fff;
+}
+
+
+.form__box{
+    width: calc(100% + 450px);
+}
+
+.form__button,
+.form__subbutton{
+        height: 7rem;
+    }
+
+img {
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 40rem;
+}
+
+input {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+    &:focus {
+        outline: none;
+        border-color: #B6521A;
+    }
+
+    
+    &::placeholder{
+        color: #fff
+    }
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .form__box{
+        width: 100rem;
+    }
+}
+
+
+    
+

@@ -5,8 +5,22 @@
     src: url('../global/_fonts.scss');
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html{
     scroll-behavior: smooth;
+    font-size: calc(100vw / 1920 * 10);
+    // @media (max-width: 1024px) {
+    //     font-size: calc(100vw / 1024 * 10)
+    // }
+    // @media (max-width: 767px) {
+    //     font-size: calc(100vw / 767 * 10)
+    // }
+    // @media (max-width: 500px) {
+    //     font-size: calc(100vw / 500 * 10)
+    // }
 }
 
 body {
@@ -15,47 +29,48 @@ body {
     min-height: 100vh;
 }
 
+div {
+    width: 100%;
+    text-align: center;
+}
+
+div>img{
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     font-family: 'Roboto-Bold';
 }
 
 .wrapper{
-    max-width: 1600px;
+    max-width: 140rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
-    margin: 10px auto;
-    font-size: 18px;
+    margin: 1rem auto;
+    font-size: calc(100% + 0.5vw);
 }
+
 
 .line {
     background-color: $base;
-    width: 100%;
-    height: 5px;
+    // width: calc(100% - 50rem);
+    width: 140rem;
+    height: 0.5rem;
+    border-style: none;
 }
 
 .container {
-    max-width: 1600px;
-	min-width: 350px;
-	padding: 0 75px;
+    max-width: 160rem;
+	min-width: 35rem;
+	padding: 0 7.5rem;
 	margin: 0 auto;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-
-	@media (max-width: 1280px) {
-        max-width: 1280px;
-        padding: 0 75px;
-    }
-
-    @media (max-width: 800px) { 
-        padding: 0 35px;
-    }
-
-    @media (max-width: 800px) { 
-        padding: 0 20px;
-    }
 }
 
 
